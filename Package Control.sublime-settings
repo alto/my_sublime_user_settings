@@ -1,0 +1,30 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"DetectSyntax",
+		"ERB Insert and Toggle Commands",
+		"Git",
+		"GitGutter",
+		"Markdown Preview",
+		"MoveTab",
+		"Package Control",
+		"Pretty JSON",
+		"Rails Related Files",
+		"RubyTest",
+		"SCSS",
+		"SideBarEnhancements",
+		"soda-theme",
+		"SublimeCodeIntel",
+		"SublimeTODO",
+		"Tag",
+		"Theme - Soda",
+		"TrailingSpaces"
+	],
+	"repositories":
+	[
+		"https://github.com/buymeasoda/soda-theme",
+		"https://github.com/kemayo/sublime-text-2-git"
+	]
+}
