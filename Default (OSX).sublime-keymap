@@ -5,5 +5,15 @@
   { "keys": ["super+ctrl+w"],   "command": "close_all" },
   { "keys": ["super+shift+t"],  "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["ctrl+shift+d"],   "command": "duplicate_line" },
-  { "keys": ["super+r"],   "command": "build" }
+  { "keys": ["ctrl+l"],         "command": "insert", "args": {"characters": " => "} },
+  { "keys": ["super+shift+l"],  "command": "expand_selection", "args": {"to": "line"} },
+  { "keys": ["super+l"],        "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["super++alt+ctrl+c"], "command": "delete_trailing_spaces" },
+  { "keys": ["ctrl+shift+."],   "command": "erb" },
+  // { "keys": ["super+r"],        "command": "build" },
+  { "keys": ["ctrl+shift+j"],   "command": "join_lines" },
+  { "keys": ["super+forward_slash"],      "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+alt+forward_slash"],  "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["ctrl+shift+t"],             "command": "todo", "args": {"open_files_only": false} },
+  { "keys": ["f2"],                       "command": "next_bookmark" }
 ]
