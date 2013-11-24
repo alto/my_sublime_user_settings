@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>time</string>
+	</array>
+	<key>name</key>
+	<string>Timesheets</string>
+	<key>patterns</key>
+	<array>
+
+		<dict>
+			<key>comment</key>
+			<string>summary and project</string>
+			<key>match</key>
+			<string>(\d+\.\d+) (.*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(#{0,2}) (\d[\do][.:][\do][\do])(-)(\d[\do][.:][\do][\do]) (.*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>support.source.time</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>comment.source.time</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>support.source.time</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>comment.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(\d\d:\d\d-\d\d.\d\d|\d{1,2}\.\d|xing)</string>
+			<key>name</key>
+			<string>keyword.source.time</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>when?</string>
+			<key>match</key>
+			<string>(Mo|Di|Mi|Do|Fr|Sa|So) (\d\d\.\d\d\.\d\d\d\d)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>^#.*$</string>
+			<key>name</key>
+			<string>comment.language.time</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.time</string>
+	<key>uuid</key>
+	<string>b3e9e4ca-0f33-4bc9-92c5-2c8b030f178f</string>
+</dict>
+</plist>
