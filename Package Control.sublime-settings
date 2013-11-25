@@ -3,8 +3,6 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
-		"DetectSyntax",
-		"ERB Insert and Toggle Commands",
 		"Git",
 		"GitGutter",
 		"HttpStatusCode",
@@ -18,7 +16,6 @@
 		"SideBarEnhancements",
 		"soda-theme",
 		"SublimeCodeIntel",
-		"SublimeTODO",
 		"Tag",
 		"Theme - Aqua",
 		"Theme - Soda",
