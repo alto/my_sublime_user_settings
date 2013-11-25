@@ -33,7 +33,7 @@
 
 		<dict>
 			<key>match</key>
-			<string>(#{0,2}) (\d[\do][.:][\do][\do])(-)(\d[\do][.:][\do][\do]) (.*)</string>
+			<string>(#{0,2}) (\d[\do][.:][\do][\do])((-)(\d[\do][.:][\do][\do]))* (.*)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -54,9 +54,14 @@
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>support.source.time</string>
+					<string></string>
 				</dict>
 				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>support.source.time</string>
+				</dict>
+				<key>6</key>
 				<dict>
 					<key>name</key>
 					<string>comment.source.time</string>
