@@ -33,7 +33,7 @@
 
 		<dict>
 			<key>match</key>
-			<string>(#{0,2}) (\d[\do][.:][\do][\do])((-)(\d[\do][.:][\do][\do]))* (.*)</string>
+			<string>(#{0,2}) (\d[\do][.:][\do][\do])((-)(\d[\do][.:][\do][\do]))*:{0,1} (.*)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -80,7 +80,7 @@
 			<key>comment</key>
 			<string>when?</string>
 			<key>match</key>
-			<string>(Mo|Di|Mi|Do|Fr|Sa|So) (\d\d\.\d\d\.\d\d\d\d)</string>
+			<string>(Mo|Montag|Di|Dienstag|Mi|Mittwoch|Do|Donnerstag|Fr|Freitag|Sa|Samstag|So|Sonntag),{0,1} (\d\d\.(\d\d\.| \w* )\d\d\d{0,1}\d{0,1})</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
