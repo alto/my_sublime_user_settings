@@ -11,19 +11,12 @@
 		"Package Control",
 		"Pretty JSON",
 		"Rails Related Files",
+		"RSpec",
 		"RubyTest",
 		"SCSS",
 		"SideBarEnhancements",
-		"soda-theme",
-		"SublimeCodeIntel",
-		"Tag",
 		"Theme - Aqua",
 		"Theme - Soda",
 		"TrailingSpaces"
-	],
-	"repositories":
-	[
-		"https://github.com/buymeasoda/soda-theme",
-		"https://github.com/kemayo/sublime-text-2-git"
 	]
 }
