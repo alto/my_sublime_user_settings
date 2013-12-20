@@ -43,8 +43,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SublimeCodeIntel"
+		"Vintage"
 	],
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",

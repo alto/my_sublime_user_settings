@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
+		"Emmet",
 		"Git",
 		"GitGutter",
 		"HttpStatusCode",
@@ -15,6 +16,8 @@
 		"RubyTest",
 		"SCSS",
 		"SideBarEnhancements",
+		"soda-theme",
+		"Tag",
 		"Theme - Aqua",
 		"Theme - Soda",
 		"TrailingSpaces"
