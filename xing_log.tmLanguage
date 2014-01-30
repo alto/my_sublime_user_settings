@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>time</string>
+	</array>
+	<key>name</key>
+	<string>Timesheets</string>
+	<key>patterns</key>
+	<array>
+
+		<dict>
+			<key>comment</key>
+			<string>server info</string>
+			<key>match</key>
+			<string>^.*\]:</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Started</string>
+			<key>match</key>
+			<string>(Started) ([A-Z]*) ([^ ]*) (.*$)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.source.time</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>comment.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Processing</string>
+			<key>match</key>
+			<string>(Processing) (by) ([^ ]*)#([^ ]*) (as) ([^ ]*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>comment.source.time</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>comment.source.time</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Database Request</string>
+			<key>match</key>
+			<string>(SELECT|INSERT) (.* FROM) ([^ ]*) (.*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Database Update</string>
+			<key>match</key>
+			<string>(UPDATE [^ ]*) (.*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>Database Update</string>
+			<key>match</key>
+			<string>(Rendered) (.*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.source.time</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.source.time</string>
+				</dict>
+			</dict>
+		</dict>
+
+	</array>
+	<key>scopeName</key>
+	<string>source.time</string>
+	<key>uuid</key>
+	<string>b3e9e4ca-0f33-4bc9-92c5-2c8b030f178f</string>
+</dict>
+</plist>
