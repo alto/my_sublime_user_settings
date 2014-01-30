@@ -3,7 +3,6 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
-		"Emmet",
 		"Git",
 		"GitGutter",
 		"HttpStatusCode",
@@ -14,6 +13,7 @@
 		"Rails Related Files",
 		"RSpec",
 		"RubyTest",
+		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
 		"soda-theme",
