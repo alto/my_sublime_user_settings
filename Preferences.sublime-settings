@@ -35,8 +35,6 @@
 		".bundle",
 		"bundle",
 		".rbx",
-		"bin",
-		"script",
 		"tmp"
 	],
 	"font_size": 12.0,
