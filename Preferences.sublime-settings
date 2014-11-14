@@ -1,4 +1,5 @@
 {
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
 	"file_exclude_patterns":
 	[
@@ -37,13 +38,17 @@
 		".rbx",
 		"tmp"
 	],
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"CTags",
 		"Vintage"
 	],
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"wide_caret": true,
+	"word_wrap": true
 }
