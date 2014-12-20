@@ -1,4 +1,5 @@
 {
+	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
 	"file_exclude_patterns":
