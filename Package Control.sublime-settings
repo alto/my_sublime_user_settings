@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Better CoffeeScript",
 		"CoffeeScript",
 		"CTags",
 		"ERB Snippets",
@@ -10,6 +11,7 @@
 		"Haml",
 		"Handlebars",
 		"HttpStatusCode",
+		"JavaScriptNext - ES6 Syntax",
 		"Markdown Preview",
 		"MoveTab",
 		"Package Control",
@@ -23,6 +25,7 @@
 		"soda-theme",
 		"Tag",
 		"Theme - Aqua",
+		"Theme - Cobalt2",
 		"Theme - Soda",
 		"TrailingSpaces"
 	]
