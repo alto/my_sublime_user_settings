@@ -17,5 +17,6 @@
   { "keys": ["super+forward_slash"],      "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["super+alt+forward_slash"],  "command": "toggle_comment", "args": { "block": true } },
   { "keys": ["ctrl+shift+t"],             "command": "todo", "args": {"open_files_only": false} },
-  { "keys": ["f2"],                       "command": "next_bookmark" }
+  { "keys": ["f2"],                       "command": "next_bookmark" },
+  { "keys": ["super+k", "super+z"], "command": "zoom_pane", "args": {"fraction": 1.0} }
 ]

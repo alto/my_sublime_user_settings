@@ -1,4 +1,5 @@
 {
+	"auto_complete": false,
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
@@ -24,6 +25,7 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.gem",
 		"*.pdf"
 	],
 	"folder_exclude_patterns":
@@ -47,9 +49,11 @@
 		"CTags",
 		"Vintage"
 	],
+	"overlay_scroll_bars": "enabled",
 	"tab_size": 2,
 	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"use_simple_full_screen": true,
 	"wide_caret": true,
 	"word_wrap": true
 }
