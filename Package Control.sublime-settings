@@ -1,13 +1,14 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"BeautifyRuby",
 		"Better CoffeeScript",
 		"CoffeeScript",
 		"CTags",
-		"DetectSyntax",
-		"ERB Insert and Toggle Commands",
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
@@ -29,11 +30,13 @@
 		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
-		"soda-theme",
+		"SublimeERB",
 		"Tag",
 		"Theme - Aqua",
 		"Theme - Cobalt2",
 		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Theme - Sodarized",
 		"TrailingSpaces"
 	]
 }
